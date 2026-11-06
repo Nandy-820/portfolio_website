@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Srinandhini Puralasetti | MCA Student & Aspiring Software Developer</title>
+  
+  <!-- SEO & Open Graph Metadata -->
+  <meta name="description" content="Portfolio of Srinandhini Puralasetti - MCA Student, Aspiring Software Developer, Python & Django Developer based in Visakhapatnam, India.">
+  <meta name="keywords" content="Srinandhini Puralasetti, Software Developer, Python Developer, Django Developer, Full-Stack Developer, MCA, Visakhapatnam, Portfolio">
+  <meta name="author" content="Srinandhini Puralasetti">
+  <meta name="theme-color" content="#0B1630">
+  <meta property="og:title" content="Srinandhini Puralasetti | Portfolio">
+  <meta property="og:description" content="MCA Student & Aspiring Software Developer specializing in Python, Django, MySQL, and full-stack development.">
+  <meta property="og:type" content="website">
+
+  <!-- Custom SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230B1630' stroke='%23D4AF37' stroke-width='4'/%3E%3Ctext x='50' y='60' font-family='sans-serif' font-size='38' font-weight='bold' fill='%23D4AF37' text-anchor='middle'%3ESP%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Inter & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Preloader Screen -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="preloader-content">
+      <div class="preloader-spinner">
+        <span class="spinner-ring"></span>
+        <span class="spinner-core">SP</span>
+      </div>
+      <p class="preloader-text">Loading Experience...</p>
+    </div>
+  </div>
+
+  <!-- Custom Golden Aura Cursor (Desktop Only) -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-outline" aria-hidden="true"></div>
+
+  <!-- Subtle Ambient Particle Background -->
+  <canvas id="ambient-canvas" class="ambient-canvas" aria-hidden="true"></canvas>
+
+  <!-- Sticky Transparent Navigation Bar -->
+  <header id="header" class="site-header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#hero" class="brand-logo" aria-label="Srinandhini Puralasetti Home">
+        <span class="brand-code">&lt;</span>
+        <span class="brand-name">Srinandhini</span>
+        <span class="brand-dot">.P</span>
+        <span class="brand-code">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li class="nav-item"><a href="#strengths" class="nav-link">Strengths</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-item nav-cta-item">
+          <a href="resume.pdf" download="Srinandhini_Puralasetti_Resume.pdf" class="btn btn-nav-resume">
+            <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Resume
+          </a>
+        </li>
+      </ul>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Website Content -->
+  <main id="main-content">
+    
+    <!-- ==============================================
+         SECTION 1: HERO / LANDING PAGE
+         ============================================== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        
+        <!-- Hero Text & Presentation -->
+        <div class="hero-text-content reveal-fade-up">
+          <div class="hero-status-pill">
+            <span class="status-indicator"></span>
+            <span>Available for Software Developer Opportunities</span>
+          </div>
+
+          <h1 class="hero-greeting-title">
+            <span class="greeting-pre">Hello, I'm</span>
+            <span class="hero-full-name">Srinandhini Puralasetti</span>
+          </h1>
+
+          <h2 class="hero-headline">
+            An MCA Student Passionate About Building Smart Software Solutions.
+          </h2>
+
+          <div class="hero-typing-wrapper" aria-live="polite">
+            <span class="typing-label">Focus Area: </span>
+            <span id="typing-text" class="typing-dynamic"></span>
+            <span class="typing-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-summary">
+            Motivated MCA candidate with knowledge of Python, Django, MySQL, and full-stack software development. Dedicated to building scalable web applications and solving real-world problems through clean, structured technology.
+          </p>
+
+          <!-- Call To Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+            </a>
+            <a href="resume.pdf" download="Srinandhini_Puralasetti_Resume.pdf" class="btn btn-secondary">
+              <i class="fa-solid fa-download" aria-hidden="true"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <div class="social-links-row">
+              <a href="https://github.com/Nandy-820" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a href="mailto:purlachittinandhini@gmail.com" class="social-icon" aria-label="Send Email">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </a>
+              <a href="tel:+917735392972" class="social-icon" aria-label="Call Mobile">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Profile Artwork & Floating Badges -->
+        <div class="hero-visual reveal-fade-left">
+          <div class="profile-card-art">
+            <div class="glow-orb glow-orb-1" aria-hidden="true"></div>
+            <div class="glow-orb glow-orb-2" aria-hidden="true"></div>
+            
+            <div class="avatar-frame">
+              <div class="avatar-ring-outer"></div>
+              <div class="avatar-ring-inner"></div>
+              
+              <!-- Professional Developer Avatar Graphic -->
+              <div class="avatar-inner">
+                <img src="profile.jpg" alt="Srinandhini Puralasetti - Software Developer" class="profile-photo">
+              </div>
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-pill float-1">
+              <i class="fa-brands fa-python" style="color: #38bdf8;" aria-hidden="true"></i>
+              <span>Python &amp; Django</span>
+            </div>
+
+            <div class="floating-pill float-2">
+              <i class="fa-solid fa-database" style="color: #D4AF37;" aria-hidden="true"></i>
+              <span>MySQL &amp; DBMS</span>
+            </div>
+
+            <div class="floating-pill float-3">
+              <i class="fa-solid fa-layer-group" style="color: #60a5fa;" aria-hidden="true"></i>
+              <span>Full-Stack Web</span>
+            </div>
+
+            <!-- Location Pill -->
+            <div class="profile-location-chip">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <span>Visakhapatnam, AP, India</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="hero-scroll-indicator" aria-label="Scroll down to About section">
+        <span class="mouse-icon"><span class="wheel"></span></span>
+        <span class="scroll-label">Scroll to explore</span>
+      </a>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 2: ABOUT ME
+         ============================================== -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag"><i class="fa-solid fa-user" aria-hidden="true"></i> Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">A glimpse into my background, academic pursuit, and developer journey</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Column 1: Academic & Profile Stats Card -->
+          <div class="about-card-left reveal-fade-right">
+            <div class="profile-highlight-box">
+              <div class="profile-meta-top">
+                <div class="meta-avatar">
+                  <img src="profile.jpg" alt="Srinandhini Puralasetti" class="meta-photo">
+                </div>
+                <div>
+                  <h3 class="meta-name">Srinandhini Puralasetti</h3>
+                  <p class="meta-role">MCA Candidate &amp; Aspiring Developer</p>
+                </div>
+              </div>
+
+              <div class="about-stats-grid">
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+                  <div class="stat-content">
+                    <span class="stat-value">MCA</span>
+                    <span class="stat-label">Aditya Degree &amp; P.G. (Pursuing)</span>
+                  </div>
+                </div>
+
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></div>
+                  <div class="stat-content">
+                    <span class="stat-value">Full-Stack</span>
+                    <span class="stat-label">Python, Django &amp; MySQL</span>
+                  </div>
+                </div>
+
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fa-solid fa-award" aria-hidden="true"></i></div>
+                  <div class="stat-content">
+                    <span class="stat-value">Academic Merit</span>
+                    <span class="stat-label">96% SSC | 82% Inter | 78% B.Sc</span>
+                  </div>
+                </div>
+
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+                  <div class="stat-content">
+                    <span class="stat-value">Core Logic</span>
+                    <span class="stat-label">OOP, Data Structures, ML</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="about-badge-row">
+                <span class="mini-badge"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Visakhapatnam, India</span>
+                <span class="mini-badge"><i class="fa-solid fa-check-circle" aria-hidden="true"></i> Immediate Availability</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Narrative & Four Pillars -->
+          <div class="about-content-right reveal-fade-left">
+            <h3 class="about-lead">
+              Driven by curiosity, analytical rigor, and a commitment to building reliable software.
+            </h3>
+            
+            <p class="about-paragraph">
+              I am currently pursuing my <strong>Master of Computer Applications (MCA)</strong> at Aditya Degree &amp; P.G. Colleges (affiliated with Andhra University). With a solid computer science foundation built during my Bachelor of Science (B.Sc) and hands-on experience in full-stack web development, I focus on transforming logic into user-centric software solutions.
+            </p>
+
+            <p class="about-paragraph">
+              My technical core centers on <strong>Python, Django, MySQL, and modern frontend technologies</strong>. I am keen on developing scalable software applications, designing clean relational schemas, and applying algorithmic thinking to solve real-world problems.
+            </p>
+
+            <!-- Four Interest / Focus Areas -->
+            <div class="pillars-grid">
+              
+              <div class="pillar-card">
+                <div class="pillar-icon"><i class="fa-solid fa-terminal" aria-hidden="true"></i></div>
+                <div>
+                  <h4 class="pillar-title">Software Development</h4>
+                  <p class="pillar-desc">Architecting robust, structured applications utilizing Python, Django, and object-oriented principles.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon"><i class="fa-solid fa-rocket" aria-hidden="true"></i></div>
+                <div>
+                  <h4 class="pillar-title">Real-World Applications</h4>
+                  <p class="pillar-desc">Building practical tools like ATS resume analysis systems that deliver measurable value.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon"><i class="fa-solid fa-brain" aria-hidden="true"></i></div>
+                <div>
+                  <h4 class="pillar-title">Problem-Solving</h4>
+                  <p class="pillar-desc">Applying Data Structures, modular thinking, and debugging persistence to resolve complex challenges.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i></div>
+                <div>
+                  <h4 class="pillar-title">Emerging Technologies</h4>
+                  <p class="pillar-desc">Continuously expanding my knowledge in Machine Learning, API architectures, and modern developer tooling.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="about-cta-row">
+              <a href="#contact" class="btn btn-primary">
+                <span>Let's Discuss Opportunities</span>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </a>
+              <a href="#projects" class="btn btn-outline">
+                <span>View Flagship Project</span>
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 3: TECHNICAL SKILLS
+         ============================================== -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag"><i class="fa-solid fa-gears" aria-hidden="true"></i> Expertise</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Structured technical abilities based strictly on my verified coursework and project implementation</p>
+        </div>
+
+        <!-- Filter Tabs for Skills -->
+        <div class="skills-filter-tabs reveal-fade-up" role="tablist" aria-label="Skills Filter">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Domains</button>
+          <button class="filter-btn" data-filter="languages" role="tab" aria-selected="false">Languages</button>
+          <button class="filter-btn" data-filter="frameworks" role="tab" aria-selected="false">Frameworks &amp; Web</button>
+          <button class="filter-btn" data-filter="database" role="tab" aria-selected="false">Databases</button>
+          <button class="filter-btn" data-filter="core" role="tab" aria-selected="false">Core Concepts</button>
+          <button class="filter-btn" data-filter="tools" role="tab" aria-selected="false">Tools</button>
+        </div>
+
+        <!-- Categorized Skills Grid -->
+        <div class="skills-grid">
+          
+          <!-- Card 1: Programming Languages -->
+          <div class="skill-category-card reveal-fade-up" data-category="languages">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <span class="category-subtitle">Core Programming Foundations</span>
+              </div>
+            </div>
+            
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <i class="fa-brands fa-python" style="color: #38bdf8;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Python</span>
+                  <span class="pill-role">Primary Backend &amp; Scripting</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-brands fa-java" style="color: #f87171;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Java</span>
+                  <span class="pill-role">Object-Oriented Programming</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-solid fa-c" style="color: #60a5fa;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">C</span>
+                  <span class="pill-role">Procedural &amp; Memory Basics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Frameworks -->
+          <div class="skill-category-card reveal-fade-up" data-category="frameworks">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i class="fa-solid fa-cubes" aria-hidden="true"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Frameworks</h3>
+                <span class="category-subtitle">Full-Stack Application Framework</span>
+              </div>
+            </div>
+            
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <i class="fa-solid fa-server" style="color: #34d399;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Django</span>
+                  <span class="pill-role">MVC / MVT Architecture, ORM, Auth</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Web Technologies -->
+          <div class="skill-category-card reveal-fade-up" data-category="frameworks">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Web Technologies</h3>
+                <span class="category-subtitle">Responsive Frontend Engineering</span>
+              </div>
+            </div>
+            
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <i class="fa-brands fa-html5" style="color: #fb923c;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">HTML / HTML5</span>
+                  <span class="pill-role">Semantic Markup &amp; Structure</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-brands fa-css3-alt" style="color: #60a5fa;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">CSS / CSS3</span>
+                  <span class="pill-role">Flexbox, Grid &amp; Layouts</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-brands fa-bootstrap" style="color: #c084fc;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Bootstrap</span>
+                  <span class="pill-role">Responsive Component UI</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-brands fa-js" style="color: #facc15;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">JavaScript</span>
+                  <span class="pill-role">DOM, Event Handling &amp; Interactivity</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Database Systems -->
+          <div class="skill-category-card reveal-fade-up" data-category="database">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i class="fa-solid fa-database" aria-hidden="true"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Database</h3>
+                <span class="category-subtitle">Relational Storage &amp; Queries</span>
+              </div>
+            </div>
+            
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <i class="fa-solid fa-server" style="color: #38bdf8;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">MySQL</span>
+                  <span class="pill-role">Relational Database Management</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-solid fa-table" style="color: #D4AF37;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">DBMS</span>
+                  <span class="pill-role">Schema Design, Normalization &amp; ACID</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-solid fa-terminal" style="color: #a3e635;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">SQL</span>
+                  <span class="pill-role">Queries, Joins, Triggers &amp; CRUD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Core Concepts -->
+          <div class="skill-category-card reveal-fade-up" data-category="core">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i class="fa-solid fa-brain" aria-hidden="true"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Core Concepts</h3>
+                <span class="category-subtitle">Theoretical Foundations &amp; Architecture</span>
+              </div>
+            </div>
+            
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <i class="fa-solid fa-sitemap" style="color: #D4AF37;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Object-Oriented Programming (OOP)</span>
+                  <span class="pill-role">Inheritance, Polymorphism, Abstraction</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-solid fa-diagram-project" style="color: #60a5fa;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Data Structures</span>
+                  <span class="pill-role">Arrays, Lists, Stacks, Queues, Trees</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-solid fa-robot" style="color: #a78bfa;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Machine Learning</span>
+                  <span class="pill-role">Foundational Algorithms &amp; Keyword Analytics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6: Tools & Workflow -->
+          <div class="skill-category-card reveal-fade-up" data-category="tools">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <i class="fa-solid fa-wrench" aria-hidden="true"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Tools</h3>
+                <span class="category-subtitle">Version Control &amp; Developer Environment</span>
+              </div>
+            </div>
+            
+            <div class="skill-tags-list">
+              <div class="skill-pill">
+                <i class="fa-brands fa-git-alt" style="color: #f87171;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Git</span>
+                  <span class="pill-role">Branching, Commits &amp; Version History</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-brands fa-github" style="color: #f8fafc;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">GitHub</span>
+                  <span class="pill-role">Remote Repositories &amp; Collaboration</span>
+                </div>
+              </div>
+
+              <div class="skill-pill">
+                <i class="fa-solid fa-code-compare" style="color: #38bdf8;" aria-hidden="true"></i>
+                <div class="pill-info">
+                  <span class="pill-name">Visual Studio Code</span>
+                  <span class="pill-role">Primary IDE &amp; Debugging Environment</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 4: FEATURED PROJECTS
+         ============================================== -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag"><i class="fa-solid fa-fire" aria-hidden="true"></i> Highlighted Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Real-world full-stack software built to solve concrete industry challenges</p>
+        </div>
+
+        <!-- Master Project Card: AI-Powered Resume Analyzer -->
+        <div class="master-project-card reveal-fade-up">
+          
+          <div class="project-header-bar">
+            <div class="badge-featured">
+              <i class="fa-solid fa-star" aria-hidden="true"></i> Flagship Full-Stack Project
+            </div>
+            <div class="project-arch-tag">
+              <i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Django + Python + MySQL
+            </div>
+          </div>
+
+          <div class="project-card-body">
+            
+            <!-- Project Left: Description & Feature Matrix -->
+            <div class="project-content-col">
+              <h3 class="project-title">AI-Powered Resume Analyzer</h3>
+              <p class="project-tagline">
+                An intelligent full-stack web application that parses resumes, executes automated keyword matching against job requirements, and generates comprehensive ATS-based evaluation scores.
+              </p>
+
+              <!-- Technologies Stack Badges -->
+              <div class="project-tech-badges">
+                <span class="tech-badge"><i class="fa-brands fa-python" aria-hidden="true"></i> Python</span>
+                <span class="tech-badge"><i class="fa-solid fa-server" aria-hidden="true"></i> Django</span>
+                <span class="tech-badge"><i class="fa-solid fa-database" aria-hidden="true"></i> MySQL</span>
+                <span class="tech-badge"><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML</span>
+                <span class="tech-badge"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS</span>
+                <span class="tech-badge"><i class="fa-brands fa-bootstrap" aria-hidden="true"></i> Bootstrap</span>
+                <span class="tech-badge"><i class="fa-brands fa-js" aria-hidden="true"></i> JavaScript</span>
+              </div>
+
+              <!-- Key Engineered Features -->
+              <div class="project-features-list">
+                <h4 class="features-title">Engineered Capabilities:</h4>
+                <ul class="feature-bullets">
+                  <li>
+                    <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                    <span><strong>Full-Stack Architecture:</strong> Developed using Django and Python for backend processing, paired with a responsive UI built in HTML, CSS, Bootstrap, and JavaScript.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                    <span><strong>ATS Evaluation &amp; Parsing:</strong> Implemented automated resume parsing, keyword matching, skill extraction, and accurate ATS score generation.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                    <span><strong>Database Persistence:</strong> Integrated MySQL database to efficiently manage user authentication, account states, uploaded resumes, and historical analysis records.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                    <span><strong>Gap Analysis &amp; Suggestions:</strong> Created algorithmic logic to identify missing skills and provide actionable, personalized suggestions for resume enhancement.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                    <span><strong>Secure User Dashboard:</strong> Implemented robust authentication workflows and a rich interactive dashboard for tracking multiple resume evaluations over time.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Actions & Links -->
+              <div class="project-action-buttons">
+                <a href="https://github.com/Nandy-820" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <i class="fa-brands fa-github" aria-hidden="true"></i>
+                  <span>Explore Repository on GitHub</span>
+                </a>
+                <button type="button" class="btn btn-outline" id="btn-open-demo-modal">
+                  <i class="fa-solid fa-chart-pie" aria-hidden="true"></i>
+                  <span>Simulate ATS Scoring Demo</span>
+                </button>
+              </div>
+              <div class="project-disclaimer">
+                <i class="fa-solid fa-circle-info" aria-hidden="true"></i> 
+                <span>Direct GitHub repository linked above. Live deployment can be configured upon production hosting.</span>
+              </div>
+            </div>
+
+            <!-- Project Right: Interactive Dashboard Visual Mockup -->
+            <div class="project-visual-col">
+              <div class="ats-mockup-window">
+                
+                <div class="mockup-header-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                  <span class="mockup-title-bar">Resume_Analysis_Dashboard.py</span>
+                </div>
+
+                <div class="mockup-screen-content">
+                  
+                  <!-- Top Stats / Score Gauge -->
+                  <div class="mockup-score-banner">
+                    <div class="score-circle-container">
+                      <svg class="score-svg" viewBox="0 0 100 100">
+                        <circle class="score-bg-circle" cx="50" cy="50" r="42" />
+                        <circle class="score-prog-circle" cx="50" cy="50" r="42" />
+                      </svg>
+                      <div class="score-number-box">
+                        <span class="score-big">88</span>
+                        <span class="score-unit">/100</span>
+                      </div>
+                    </div>
+                    <div class="score-info-col">
+                      <span class="score-status-badge">ATS Evaluation: Passed</span>
+                      <h4 class="score-heading">Strong Role Match</h4>
+                      <p class="score-desc">Python &amp; Django Full-Stack Profile</p>
+                    </div>
+                  </div>
+
+                  <!-- Metrics Bars -->
+                  <div class="mockup-metric-bars">
+                    <div class="metric-row">
+                      <div class="metric-label"><span>Keyword Relevance</span><span>92%</span></div>
+                      <div class="progress-track"><div class="progress-fill" style="width: 92%;"></div></div>
+                    </div>
+                    <div class="metric-row">
+                      <div class="metric-label"><span>Format Compatibility</span><span>95%</span></div>
+                      <div class="progress-track"><div class="progress-fill" style="width: 95%;"></div></div>
+                    </div>
+                    <div class="metric-row">
+                      <div class="metric-label"><span>Technical Skill Density</span><span>85%</span></div>
+                      <div class="progress-track"><div class="progress-fill" style="width: 85%;"></div></div>
+                    </div>
+                  </div>
+
+                  <!-- Extracted Skills Simulation -->
+                  <div class="mockup-tags-area">
+                    <span class="mock-subtitle">Identified Core Skills:</span>
+                    <div class="tag-chips">
+                      <span class="chip matched"><i class="fa-solid fa-check" aria-hidden="true"></i> Python</span>
+                      <span class="chip matched"><i class="fa-solid fa-check" aria-hidden="true"></i> Django</span>
+                      <span class="chip matched"><i class="fa-solid fa-check" aria-hidden="true"></i> MySQL</span>
+                      <span class="chip matched"><i class="fa-solid fa-check" aria-hidden="true"></i> JavaScript</span>
+                      <span class="chip matched"><i class="fa-solid fa-check" aria-hidden="true"></i> Git</span>
+                    </div>
+                  </div>
+
+                  <!-- Gap Identification -->
+                  <div class="mockup-recommendations">
+                    <span class="mock-subtitle">Identified Skill Recommendations:</span>
+                    <div class="rec-chips">
+                      <span class="chip gap">+ Docker</span>
+                      <span class="chip gap">+ REST APIs</span>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 5: EDUCATION
+         ============================================== -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Background</span>
+          <h2 class="section-title">Academic Qualifications</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">A chronological record of continuous academic excellence and dedicated learning</p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <!-- Timeline Item 1: MCA -->
+          <div class="timeline-item reveal-fade-up">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-badge-row">
+                <span class="timeline-status-badge status-pursuing">Pursuing</span>
+                <span class="timeline-year">Present</span>
+              </div>
+              <h3 class="degree-title">Master of Computer Applications (MCA)</h3>
+              <h4 class="institution-name">Aditya Degree &amp; P.G. Colleges, Andhra University</h4>
+              <p class="degree-desc">
+                Currently advancing specialized knowledge in software development, full-stack architectures, database management, and practical software engineering.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: B.Sc -->
+          <div class="timeline-item reveal-fade-up">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-university" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-badge-row">
+                <span class="timeline-score-badge">Score: 78%</span>
+                <span class="timeline-year">Graduated: 2025</span>
+              </div>
+              <h3 class="degree-title">Bachelor of Science (B.Sc)</h3>
+              <h4 class="institution-name">Aditya Degree College, Andhra University</h4>
+              <p class="degree-desc">
+                Completed undergraduate degree with a rigorous foundation in Computer Science, mathematics, algorithmic logic, and fundamental programming concepts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Intermediate (MPC) -->
+          <div class="timeline-item reveal-fade-up">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-school" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-badge-row">
+                <span class="timeline-score-badge">Score: 82%</span>
+                <span class="timeline-year">Year: 2022</span>
+              </div>
+              <h3 class="degree-title">Intermediate (MPC - Mathematics, Physics, Chemistry)</h3>
+              <h4 class="institution-name">K.G.B. Vidyalaya College</h4>
+              <p class="degree-desc">
+                Developed analytical thinking, mathematical problem-solving skills, and computational aptitude with a strong academic score of 82%.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4: SSC -->
+          <div class="timeline-item reveal-fade-up">
+            <div class="timeline-dot">
+              <i class="fa-solid fa-award" aria-hidden="true"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-badge-row">
+                <span class="timeline-score-badge top-merit">Score: 96%</span>
+                <span class="timeline-year">Year: 2020</span>
+              </div>
+              <h3 class="degree-title">Secondary School Certificate (SSC)</h3>
+              <h4 class="institution-name">K.G.B. Vidyalaya High School</h4>
+              <p class="degree-desc">
+                Graduated with outstanding academic distinction, securing 96% and establishing a strong baseline for scientific and analytical pursuits.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 6: CERTIFICATIONS
+         ============================================== -->
+    <section id="certifications" class="section certifications-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag"><i class="fa-solid fa-certificate" aria-hidden="true"></i> Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Professional courses and validated proficiencies</p>
+        </div>
+
+        <div class="certifications-grid">
+          
+          <!-- Certification 1 -->
+          <div class="cert-card reveal-fade-up">
+            <div class="cert-card-top">
+              <div class="cert-icon-wrap">
+                <i class="fa-solid fa-comments" aria-hidden="true"></i>
+              </div>
+              <span class="cert-verified"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Verified</span>
+            </div>
+            
+            <h3 class="cert-title">English Communication Skills Certification</h3>
+            <div class="cert-issuer">
+              <i class="fa-solid fa-building-columns" aria-hidden="true"></i>
+              <span>Pearson Mepro</span>
+            </div>
+            
+            <p class="cert-description">
+              Rigorous assessment and certification focusing on professional workplace communication, listening proficiency, articulate business presentation, and collaborative dialogue.
+            </p>
+
+            <div class="cert-skills-pills">
+              <span>Active Listening</span>
+              <span>Professional Vocabulary</span>
+              <span>Verbal Clarity</span>
+            </div>
+          </div>
+
+          <!-- Certification 2 -->
+          <div class="cert-card reveal-fade-up">
+            <div class="cert-card-top">
+              <div class="cert-icon-wrap">
+                <i class="fa-solid fa-database" aria-hidden="true"></i>
+              </div>
+              <span class="cert-verified"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Verified</span>
+            </div>
+            
+            <h3 class="cert-title">Oracle Certification Course</h3>
+            <div class="cert-issuer">
+              <i class="fa-solid fa-building-columns" aria-hidden="true"></i>
+              <span>Oracle</span>
+            </div>
+            
+            <p class="cert-description">
+              Comprehensive course mastering relational database architecture, structured query language (SQL), data integrity, joins, indexing, and enterprise DBMS concepts.
+            </p>
+
+            <div class="cert-skills-pills">
+              <span>Relational Databases</span>
+              <span>SQL Queries</span>
+              <span>DBMS Principles</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 7: STRENGTHS
+         ============================================== -->
+    <section id="strengths" class="section strengths-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag"><i class="fa-solid fa-shield-heart" aria-hidden="true"></i> Attributes</span>
+          <h2 class="section-title">Professional Strengths</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Core personal qualities that empower effective development and collaboration</p>
+        </div>
+
+        <div class="strengths-grid">
+          
+          <div class="strength-card reveal-fade-up">
+            <div class="strength-icon-box">
+              <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+            </div>
+            <h3 class="strength-title">Quick Learner</h3>
+            <p class="strength-desc">Rapidly absorbs unfamiliar codebases, emerging libraries, and new development workflows with enthusiasm.</p>
+          </div>
+
+          <div class="strength-card reveal-fade-up">
+            <div class="strength-icon-box">
+              <i class="fa-solid fa-compass" aria-hidden="true"></i>
+            </div>
+            <h3 class="strength-title">Self-Motivated</h3>
+            <p class="strength-desc">Demonstrates proactive initiative to build independent projects, study documentation, and refine solutions.</p>
+          </div>
+
+          <div class="strength-card reveal-fade-up">
+            <div class="strength-icon-box">
+              <i class="fa-solid fa-arrows-split-up-and-left" aria-hidden="true"></i>
+            </div>
+            <h3 class="strength-title">Adaptability</h3>
+            <p class="strength-desc">Flexibly responds to evolving requirements, technical pivots, and diverse collaborative team dynamics.</p>
+          </div>
+
+          <div class="strength-card reveal-fade-up">
+            <div class="strength-icon-box">
+              <i class="fa-regular fa-clock" aria-hidden="true"></i>
+            </div>
+            <h3 class="strength-title">Time Management</h3>
+            <p class="strength-desc">Structures project milestones conscientiously to deliver clean, thoroughly tested work within deadlines.</p>
+          </div>
+
+          <div class="strength-card reveal-fade-up">
+            <div class="strength-icon-box">
+              <i class="fa-solid fa-ear-listen" aria-hidden="true"></i>
+            </div>
+            <h3 class="strength-title">Active Listening</h3>
+            <p class="strength-desc">Listens attentively to client specifications, mentor guidance, and teammate inputs to avoid misalignment.</p>
+          </div>
+
+          <div class="strength-card reveal-fade-up">
+            <div class="strength-icon-box">
+              <i class="fa-solid fa-comments" aria-hidden="true"></i>
+            </div>
+            <h3 class="strength-title">Communication Skills</h3>
+            <p class="strength-desc">Translates technical considerations into coherent explanations, fostering clarity across team discussions.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 8: INTERESTS
+         ============================================== -->
+    <section id="interests" class="section interests-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag"><i class="fa-solid fa-compass-drafting" aria-hidden="true"></i> Pursuits</span>
+          <h2 class="section-title">Personal Interests</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Activities that nurture creativity, mindfulness, and personal growth</p>
+        </div>
+
+        <div class="interests-grid">
+          
+          <div class="interest-card reveal-fade-up">
+            <div class="interest-icon-wrap">
+              <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+            </div>
+            <h3 class="interest-title">Learning New Technologies</h3>
+            <p class="interest-desc">
+              Passionate about discovering developer tools, machine learning applications, open-source innovations, and modern architectural standards.
+            </p>
+          </div>
+
+          <div class="interest-card reveal-fade-up">
+            <div class="interest-icon-wrap">
+              <i class="fa-solid fa-spa" aria-hidden="true"></i>
+            </div>
+            <h3 class="interest-title">Yoga</h3>
+            <p class="interest-desc">
+              Practicing mindfulness and physical discipline to cultivate mental focus, reduce stress, and maintain a balanced, resilient mindset.
+            </p>
+          </div>
+
+          <div class="interest-card reveal-fade-up">
+            <div class="interest-icon-wrap">
+              <i class="fa-solid fa-plane-departure" aria-hidden="true"></i>
+            </div>
+            <h3 class="interest-title">Travelling</h3>
+            <p class="interest-desc">
+              Exploring varied cultures, scenic landscapes, and fresh environments that inspire creativity and broaden global perspectives.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==============================================
+         SECTION 9: CONTACT ME
+         ============================================== -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">Reach out for software developer roles, discussions, or collaborative projects</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Details Column -->
+          <div class="contact-info-col reveal-fade-right">
+            <h3 class="contact-heading">Let's Connect</h3>
+            <p class="contact-subheading">
+              I am actively looking for an entry-level Software Developer, Python Developer, or Django Developer position. Feel free to contact me directly through any of the channels below.
+            </p>
+
+            <div class="contact-cards-stack">
+              
+              <!-- Email -->
+              <a href="mailto:purlachittinandhini@gmail.com" class="contact-card">
+                <div class="contact-card-icon">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="contact-card-body">
+                  <span class="contact-card-label">Email Address</span>
+                  <span class="contact-card-value">purlachittinandhini@gmail.com</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+              </a>
+
+              <!-- Phone -->
+              <a href="tel:+917735392972" class="contact-card">
+                <div class="contact-card-icon">
+                  <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="contact-card-body">
+                  <span class="contact-card-label">Phone Number</span>
+                  <span class="contact-card-value">+91 7735392972</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+              </a>
+
+              <!-- Location -->
+              <div class="contact-card no-click">
+                <div class="contact-card-icon">
+                  <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                </div>
+                <div class="contact-card-body">
+                  <span class="contact-card-label">Location</span>
+                  <span class="contact-card-value">Visakhapatnam, Andhra Pradesh, India</span>
+                </div>
+              </div>
+
+              <!-- GitHub -->
+              <a href="https://github.com/Nandy-820" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="contact-card-icon">
+                  <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="contact-card-body">
+                  <span class="contact-card-label">GitHub Profile</span>
+                  <span class="contact-card-value">github.com/Nandy-820</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+                <div class="contact-card-icon">
+                  <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </div>
+                <div class="contact-card-body">
+                  <span class="contact-card-label">LinkedIn Profile</span>
+                  <span class="contact-card-value">Connect on LinkedIn</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-col reveal-fade-left">
+            <div class="form-container-box">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-desc">
+                Fill in your details below. When you click send, your default email client will open with your message addressed directly to Srinandhini.
+              </p>
+
+              <form id="portfolio-contact-form" class="portfolio-form" novalidate>
+                
+                <div class="form-group">
+                  <label for="sender-name">Your Full Name <span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-user input-icon" aria-hidden="true"></i>
+                    <input type="text" id="sender-name" name="name" required placeholder="e.g. John Doe">
+                  </div>
+                  <span class="field-error" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-email">Your Email Address <span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-envelope input-icon" aria-hidden="true"></i>
+                    <input type="email" id="sender-email" name="email" required placeholder="e.g. john@example.com">
+                  </div>
+                  <span class="field-error" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-subject">Subject <span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <i class="fa-solid fa-heading input-icon" aria-hidden="true"></i>
+                    <input type="text" id="sender-subject" name="subject" required placeholder="e.g. Interview Opportunity / Job Discussion">
+                  </div>
+                  <span class="field-error" id="subject-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="sender-message">Message <span class="req">*</span></label>
+                  <div class="input-wrap textarea-wrap">
+                    <i class="fa-solid fa-message input-icon" aria-hidden="true"></i>
+                    <textarea id="sender-message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                  </div>
+                  <span class="field-error" id="message-error"></span>
+                </div>
+
+                <!-- Form Notice -->
+                <div class="form-integration-note">
+                  <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                  <span>Prepares an authentic direct mail draft to <strong>purlachittinandhini@gmail.com</strong>.</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                  <span class="btn-text">Send Message</span>
+                  <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                </button>
+
+                <!-- Feedback Toast -->
+                <div id="form-feedback" class="form-feedback-alert" role="alert" style="display: none;"></div>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==============================================
+       SECTION 10: FOOTER
+       ============================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <a href="#hero" class="brand-logo footer-logo" aria-label="Back to Top">
+          <span class="brand-code">&lt;</span>
+          <span class="brand-name">Srinandhini</span>
+          <span class="brand-dot">.P</span>
+          <span class="brand-code">/&gt;</span>
+        </a>
+        
+        <p class="footer-tagline">
+          MCA Student &amp; Aspiring Software Developer &bull; Building with Python, Django &amp; MySQL
+        </p>
+
+        <div class="footer-social-row">
+          <a href="https://github.com/Nandy-820" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:purlachittinandhini@gmail.com" class="social-icon" aria-label="Email">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="tel:+917735392972" class="social-icon" aria-label="Phone">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          Designed &amp; Developed by <strong>Srinandhini Puralasetti</strong>
+        </p>
+        <p class="legal-text">
+          &copy; <span id="current-year">2026</span> All rights reserved &bull; Visakhapatnam, India
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Back-to-Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Interactive ATS Project Simulator Modal -->
+  <div id="demo-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <i class="fa-solid fa-robot modal-title-icon" aria-hidden="true"></i>
+          <div>
+            <h3 id="modal-title" class="modal-title">AI-Powered Resume Analyzer &bull; System Demo</h3>
+            <span class="modal-subtitle">Interactive simulation of the parsing &amp; ATS evaluation pipeline</span>
+          </div>
+        </div>
+        <button type="button" class="modal-close" id="btn-close-demo-modal" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-intro">
+          This interactive demonstration mirrors the core scoring engine built in the Django backend. Select a target job profile below to observe how the keyword matching and ATS scoring algorithms evaluate candidate skills:
+        </p>
+
+        <!-- Role Selector -->
+        <div class="role-selector-row">
+          <label for="demo-role-select">Select Job Role:</label>
+          <select id="demo-role-select" class="role-select">
+            <option value="python-django">Python &amp; Django Backend Developer</option>
+            <option value="fullstack">Full-Stack Web Developer (Python + JS)</option>
+            <option value="database">Database Administrator / SQL Engineer</option>
+          </select>
+        </div>
+
+        <!-- Simulated Evaluation Output Box -->
+        <div class="demo-eval-card" id="demo-eval-card">
+          <div class="demo-metric-header">
+            <div class="demo-score-chip">
+              <span class="demo-score-val" id="demo-score-val">88%</span>
+              <span class="demo-score-lbl">Computed ATS Score</span>
+            </div>
+            <div class="demo-verdict" id="demo-verdict">
+              <i class="fa-solid fa-circle-check" aria-hidden="true"></i> Strong Match for Candidate
+            </div>
+          </div>
+
+          <div class="demo-analysis-grid">
+            <div class="demo-box">
+              <span class="demo-box-lbl">Matched Keywords in Candidate Profile:</span>
+              <div class="demo-pills" id="demo-matched-pills">
+                <span class="pill hit">Python</span>
+                <span class="pill hit">Django</span>
+                <span class="pill hit">MySQL</span>
+                <span class="pill hit">Git</span>
+                <span class="pill hit">OOP</span>
+              </div>
+            </div>
+
+            <div class="demo-box">
+              <span class="demo-box-lbl">Identified Skill Enhancements:</span>
+              <div class="demo-pills" id="demo-missing-pills">
+                <span class="pill miss">+ Docker</span>
+                <span class="pill miss">+ RESTful APIs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer-note">
+          <i class="fa-solid fa-code" aria-hidden="true"></i>
+          <span>Built by Srinandhini Puralasetti using Python, Django, MySQL, HTML, CSS, Bootstrap &amp; JavaScript.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
